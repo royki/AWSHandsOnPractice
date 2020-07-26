@@ -1,5 +1,0 @@
-- ELB - Elastic Load Balancer
-- An ELB's main purpose is to evenly distribute traffic between EC2 instances. An ELB can detect an unhealthy instance and divert traffic from it, but it cannot terminate an EC2 instance.
-- Using an ELB with only one EC2 instance would provide NO additional benefit, and you would be charged money for using it.
-- All Traffic/All Ports would work as it will allow HTTP traffic over `port 80`, but AWS best practices requires that you ONLY allow the LEAST amount of traffic types to meet the needs of your application. Therefore, `HTTP/Port 80` is the only answer that satisfies the requirements.
-- Health checks are required so that the ELB does not serve traffic to an unhealthy EC2 instance. 

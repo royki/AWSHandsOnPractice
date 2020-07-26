@@ -1,4 +1,0 @@
-- SNS stands for Simple Notification Service
-- SNS allows to automate the sending of email and text messages, based on events that happen in AWS account
-- HTTP, SMS, Email endpoints - All thee options are available endpoints that SNS can send messages to.
-- SNS Components - `Topics`, `Subscriber`, `Publishers`
