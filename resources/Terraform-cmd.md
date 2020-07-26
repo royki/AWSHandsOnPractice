@@ -5,4 +5,4 @@
 - `terraform apply`
 - `terraform apply -var-files=filename.tfvars`
 - `terraform apply -auto-approve`
-- `terraform detroy`
+- `terraform destroy`
