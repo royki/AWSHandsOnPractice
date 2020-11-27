@@ -8,8 +8,8 @@ resource "aws_db_instance" "myRDS" {
   instance_class = "db.t2.micro"
   engine = "mariadb"
   engine_version = "10.2.21"
-  username = "admin"
-  password = "dbadmin"
+  username = "xxxx"
+  password = "xxxx"
   port = 3306
   allocated_storage = 20
   skip_final_snapshot = true
