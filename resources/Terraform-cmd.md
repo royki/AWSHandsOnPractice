@@ -6,3 +6,4 @@
 - `terraform apply -var-files=filename.tfvars`
 - `terraform apply -auto-approve`
 - `terraform destroy`
+- `module`
